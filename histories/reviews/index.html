@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<title>ของฝากเมืองสงขลา</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Pattaya|Gabriela" rel="stylesheet">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Pattaya', sans-serif;
+font-family: 'Gabriela', sans-serif;}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("p.jpg");
+    min-height: 60%;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:60px">ของฝาก<br>เมืองสงขลา</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:30px"><b>ของฝาก<br>เมืองสงขลา</b></span>
+    <p><a href="#menu" class="w3-button w3-black">Let me see the menu</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xlarge" id="menu">
+  <div class="w3-content">
+
+    <h1 class="w3-center w3-xxlarge" style="margin-bottom:50px">เมนูของฝาก</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'ขนมทองเอก');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">ขนมทองเอก</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'ผ้าทอเกาะยอ');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">ผ้าทอเกาะยอ</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'หนังปลาทอดกรอบ');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">หนังปลาทอดกรอบ</div>
+      </a>
+    </div>
+
+    <div id="ขนมทองเอก" class="w3-container menu w3-padding-32 w3-white">
+      <a href="histories\history1.html" onclick="openMenu(event, 'ประวัติความเป็นมา');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>ประวัติความเป็นมา</b></div>
+        <hr>
+      </a>
+
+      <a href="shops\shop1.html" onclick="openMenu(event, 'ร้านค้าเเนะนำ');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>ร้านค้าเเนะนำ</b></div>
+        <hr>
+      </a>
+
+      <a href="reviews\review1.html" onclick="openMenu(event, 'รีวิวลูกค้า');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>รีวิวลูกค้า</b></div>
+        <hr>
+      </a>
+    </div>
+
+    <div id="ผ้าทอเกาะยอ" class="w3-container menu w3-padding-32 w3-white">
+
+      <a href="histories\history2.html" onclick="openMenu(event, 'ประวัติความเป็นมา');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>ประวัติความเป็นมา</b></div>
+        <hr>
+      </a>
+
+      <a href="shops\shop4.html" onclick="openMenu(event, 'ร้านค้าเเนะนำ');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>ร้านค้าเเนะนำ</b></div>
+        <hr>
+      </a>
+
+      <a href="reviews\review2.html" onclick="openMenu(event, 'รีวิวลูกค้า');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>รีวิวลูกค้า</b></div>
+        <hr>
+      </a>
+    </div>
+
+
+    <div id="หนังปลาทอดกรอบ" class="w3-container menu w3-padding-32 w3-white">
+      <a href="histories\history3.html" onclick="openMenu(event, 'ประวัติความเป็นมา');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>ประวัติความเป็นมา</b></div>
+        <hr>
+      </a>
+
+      <a href="shops\shop5.html" onclick="openMenu(event, 'ร้านค้าเเนะนำ');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>ร้านค้าเเนะนำ</b></div>
+        <hr>
+      </a>
+
+      <a href="reviews\review3.html" onclick="openMenu(event, 'รีวิวลูกค้า');" id="myLink">
+        <div class="w3-padding-large w3-hover-grey"><b>รีวิวลูกค้า</b></div>
+        <hr>
+      </a>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-large" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-xxlarge" style="margin-bottom:64px">About Us & Contact</h1>
+    <div class="container">
+      <div class="featured-block">
+        <!-- Example row of columns -->
+<hr>
+          <div class="w3-cell-row">
+            <div class="w3-container w3-red w3-cell">
+                <p><img src="Hero-3883.jpg" width="300" height="300" alt="" class="img-responsive"</p>
+              </div>
+              <div class="w3-container w3-red w3-cell w3-right">
+                 <p>ชื่อ : นายรณกฤต สิริมโนวงศ์</p>
+                 <p>นักศึกษามหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่</p>
+                 <p>ศึกษา : คณะวิทยาการจัดการ สาขาระบบสารสนเทศ ชั้นปีที่ 2 </p>
+                 <p>ติดต่อ Facebook : <a href="http://www.facebook.com/kritlovepim/">Krit Ronnakrit Sirimanowong</a></p>
+              <br /><br />
+            </div>
+          </div>
+
+<hr>
+          <div class="w3-cell-row">
+
+          <div class="w3-container w3-red w3-cell w3-left">
+            <p><img src="Hero-3884.jpg" width="300" height="300" alt="" class="img-responsive"</p>
+            </div>
+            <div class="w3-container w3-red w3-cell w3-right">
+              <br /><br />
+
+            <p>ชื่อ : เกตุกนก เพ็ชรหาญ </p>
+            <p>นักศึกษามหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่ </p>
+            <p>ศึกษา : คณะวิทยาการจัดการ สาขาระบบสารสนเทศ ชั้นปีที่ 2</p>
+            <p>ติดต่อ Facebook : <a href="https://www.facebook.com/katekanok.phethan"> Athena Katee</a></br></br></p>
+          </div>
+        </div>
+
+<hr>
+
+            <div class="w3-cell-row">
+              <div class="w3-container w3-red w3-cell">
+                <p><img src="Hero-3885.jpg" width="300" height="300" alt="" class="img-responsive"</p>
+              </div>
+
+              <div class="w3-container w3-red w3-cell w3-right">
+                <p>ชื่อ : วศินี อินทกูล</p>
+                <p>นักศึกษามหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่ </p>
+                <p>ศึกษา : คณะวิทยาการจัดการ สาขาระบบสารสนเทศ ชั้นปีที่ 2</p>
+                <p> ติดต่อ Facebook : <a href="https://www.facebook.com/nvan.wasinee.5">Wasinee Intakool</a></br></br></p>
+              </div>
+              </div>
+      </div>
+
+    </div>
+        <div class="ruler"></div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+ <p>ของฝากเมืองสงขลา</p>
+</footer>
+
+<script>
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
